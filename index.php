@@ -13,8 +13,9 @@
 </head>
 <body>
     <div class="header">
+        <h1><strong>HELLO THỰC HÀNH LẬP TRÌNH MÃ NGUỒN MỞ</strong></h1>
         <h1>HỆ THỐNG QUẢN LÝ KHO (Render & Docker)</h1>
-        <p>Sinh viên thực hiện: [TÊN BẠN]</p>
+        <p>Sinh viên thực hiện: Trần Văn Tài</p>
     </div>
 
     <h2>Danh sách sản phẩm hiện có</h2>
