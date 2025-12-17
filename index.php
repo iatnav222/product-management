@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="header">
-        <h1>HỆ THỐNG QUẢN LÝ KHO (Render & Docker)</h1>
+        <h1>HỆ THỐNG QUẢN LÝ KHO a (Render & Docker)</h1>
         <p>Sinh viên thực hiện: Trần Văn Tài</p>
     </div>
 
