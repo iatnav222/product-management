@@ -39,7 +39,7 @@
             echo "<td>" . $product['name'] . "</td>";
             echo "<td>" . $product['price'] . "</td>";
             echo "<td>" . $product['status'] . "</td>";
-            echo "</tr>"
+            echo "</tr>";
         }
         ?>
     </table>
