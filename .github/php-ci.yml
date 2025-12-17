@@ -1,0 +1,29 @@
+name: CI/CD Pipeline (Build & Test)
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    # Bước 1: Lấy code về
+    - uses: actions/checkout@v3
+    
+    # Bước 2: Giả lập cài đặt PHP
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '7.4'
+        
+    # Bước 3: Kiểm tra lỗi cú pháp (Syntax Check)
+    # Đây là bước chứng minh "Action" đang hoạt động
+    - name: Check PHP Syntax
+      run: find . -name "*.php" -print0 | xargs -0 -n1 php -l
+      
+    # Bước 4: Thông báo sẵn sàng Deploy (Chỉ in ra màn hình)
+    # Render sẽ tự động bắt lấy code sau khi bước này xong
+    - name: Ready for Deploy
+      run: echo "Code sạch, sẵn sàng để Render deploy!"
