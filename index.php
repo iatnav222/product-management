@@ -12,8 +12,9 @@
     </style>
 </head>
 <body>
+    <h1><strong>Bài kiểm tra - DH52201396 - ca 2</strong></h1>
     <div class="header">
-        <h1>HỆ THỐNG QUẢN LÝ KHO b (Render & Docker)</h1>
+        <h1>HỆ THỐNG QUẢN LÝ KHO (Render & Docker)</h1>
         <p>Sinh viên thực hiện: Trần Văn Tài</p>
     </div>
 
